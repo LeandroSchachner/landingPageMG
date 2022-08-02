@@ -1,0 +1,68 @@
+$primary: red;
+
+@import "./node_modules/bootstrap/scss/bootstrap.scss";
+
+section {
+  padding: 60px 0;
+}
+
+.amazon-link img {
+  width: 120px;
+}
+
+.banner-content > h1 {
+  font-size: 65px;
+  font-weight: normal;
+  margin-bottom: 2rem;
+}
+
+.banner-content > h2 {
+  font-size: 50px;
+  font-weight: normal; 
+  margin-bottom: 2rem;
+}
+
+.btn-primary {
+  color: white;
+  font-weight: bolder;
+}
+.author-img {
+  position: relative;
+  z-index: 1;
+}
+@include media-breakpoint-only(xs) {
+  .banner-content > h1 {
+    font-size: 60px;
+    line-height: 60px;
+  }
+  .banner-content > h2 {
+    font-size: 35px;
+  }
+}
+@include media-breakpoint-only(sm) {
+  .banner-content > h1 {
+    font-size: 80px;
+    line-height: 80px;
+  }
+  .banner-content > h2 {
+    font-size: 40px;
+  }
+}
+@include media-breakpoint-only(md) {
+  .banner-content > h1 {
+    font-size: 90px;
+    line-height: 100px;
+  }
+  .banner-content > h2 {
+    font-size: 40px;
+  }
+}
+@include media-breakpoint-only(lg) {
+  .banner-content > h1 {
+    font-size: 70px;
+    line-height: 850px;
+  }
+  .banner-content > h2 {
+    font-size: 40px;
+  }
+}
